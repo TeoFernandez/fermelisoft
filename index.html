@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FermeliSoft - Desarrollo de Software para PyMEs</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="FermeliSoft ofrece soluciones de desarrollo web, de escritorio y marketing digital para PyMEs en Argentina.">
+    <meta name="keywords" content="desarrollo web, software a medida, marketing digital, PyMEs Argentina">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <img src="imagenes/Copia_de_FermeliSoft_Logo-removebg-preview.png" alt="FermeliSoft Logo" class="logo">
+                <nav>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#faq">Preguntas Frecuentes</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+        </div>
+    </header>
+
+    <!-- Inicio -->
+    <section id="inicio">
+        <div class="container">
+            <img src="imagenes/FermeliSoft_Logo-removebg-preview.png" alt="">
+            <h2>Digitalizá tu PyME con FermeliSoft</h2>
+            <p>Soluciones de software a medida y marketing digital para llevar tu negocio al siguiente nivel.</p>
+            <a href="#contacto" class="btn">Contactanos</a>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros">
+        <div class="container">
+            <h2>¿Quiénes Somos?</h2>
+            <p>FermeliSoft, liderado por Teo Melián Fernández, es una empresa joven y apasionada por ayudar a PyMEs argentinas a digitalizarse. Ofrecemos soluciones personalizadas, precios accesibles, y un trato cercano, disponible 24/7.</p>
+        </div>
+    </section>
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <div class="container">
+      <h2>Nuestros Servicios</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Desarrollo Web</h3>
+          <p>Páginas web modernas y responsivas en HTML, CSS, JavaScript, PHP, y WordPress para que tu negocio brille online.</p>
+        </div>
+        <div class="card">
+          <h3>Software de Escritorio</h3>
+          <p>Aplicaciones a medida en Python y Java para automatizar procesos y mejorar la eficiencia de tu PyME.</p>
+        </div>
+        <div class="card">
+          <h3>Marketing Digital</h3>
+          <p>Estrategias personalizadas para aumentar tu presencia en redes sociales y motores de búsqueda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Nuestros Proyectos</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Sitio Web para Restaurante">
+          <h3>Sitio Web para Restaurante</h3>
+          <p>Un sitio web dinámico para un restaurante local, con reservas online y menú interactivo.</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Sistema de Inventario">
+          <h3>Sistema de Inventario</h3>
+          <p>Aplicación de escritorio en Python para gestionar el stock de una tienda minorista.</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Campaña de Marketing">
+          <h3>Campaña de Marketing</h3>
+          <p>Estrategia en redes sociales que aumentó un 30% las ventas de un cliente local.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preguntas Frecuentes -->
+  <section id="faq">
+    <div class="container">
+      <h2>Preguntas Frecuentes</h2>
+      <div>
+        <h3>¿Cuánto cuesta una página web?</h3>
+        <p>Nuestros precios son accesibles y personalizados. Una web básica puede empezar desde ARG$20.000, dependiendo de las funcionalidades.</p>
+      </div>
+      <div>
+        <h3>¿En cuánto tiempo está listo mi software?</h3>
+        <p>Proyectos pequeños suelen estar listos en 2-4 semanas. Te mantendremos informado en cada etapa.</p>
+      </div>
+      <div>
+        <h3>¿Ofrecen soporte después de entregar el proyecto?</h3>
+        <p>Sí, brindamos soporte 24/7 y actualizaciones para asegurar que tu software sea sostenible.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <div class="container">
+      <h2>Contactanos</h2>
+      <form action="contacto.php" method="POST">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FermeliSoft. Todos los derechos reservados. | <a href="mailto:contacto@fermelisoft.com.ar">contacto@fermelisoft.com.ar</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
